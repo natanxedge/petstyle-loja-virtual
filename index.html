@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pet&Style | Tudo para seu pet</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 border-b border-gray-100 bg-white">
+
+        <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+
+            <a href="#inicio" class="text-2xl font-extrabold tracking-tight">
+                PET<span class="text-purple-500">&</span>STYLE
+            </a>
+
+            <div class="hidden items-center gap-8 text-sm font-medium sm:flex">
+
+                <a href="#inicio" class="transition hover:text-purple-500">
+                    Início
+                </a>
+
+                <a href="#produtos" class="transition hover:text-purple-500">
+                    Produtos
+                </a>
+
+                <a href="#depoimentos" class="transition hover:text-purple-500">
+                    Depoimentos
+                </a>
+
+                <a href="#contato" class="transition hover:text-purple-500">
+                    Contato
+                </a>
+
+            </div>
+
+            <a
+                href="#produtos"
+                class="rounded-full bg-purple-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-purple-600"
+            >
+                Comprar agora
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section
+        id="inicio"
+        class="mx-auto grid max-w-7xl items-center gap-12 px-6 py-16 md:grid-cols-2 md:py-24"
+    >
+
+        <!-- TEXTO PRINCIPAL -->
+        <div class="text-center md:text-left">
+
+            <span class="inline-block rounded-full bg-purple-100 px-4 py-2 text-sm font-semibold text-purple-600">
+                Tudo para o seu melhor amigo
+            </span>
+
+            <h1 class="mt-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
+                Seu pet merece
+                <span class="text-purple-500">o melhor.</span>
+            </h1>
+
+            <p class="mx-auto mt-6 max-w-lg text-lg leading-relaxed text-gray-500 md:mx-0">
+                Produtos selecionados para garantir conforto, diversão e bem-estar
+                para quem faz parte da sua família.
+            </p>
+
+            <div class="mt-8 flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
+
+                <a
+                    href="#produtos"
+                    class="rounded-full bg-purple-500 px-7 py-3.5 font-semibold text-white transition hover:bg-purple-600"
+                >
+                    Conheça nossos produtos
+                </a>
+
+                <a
+                    href="#contato"
+                    class="rounded-full border border-gray-200 px-7 py-3.5 font-semibold transition hover:border-purple-500 hover:text-purple-500"
+                >
+                    Fale conosco
+                </a>
+
+            </div>
+
+            <!-- AVATARES -->
+            <div class="mt-8 flex items-center justify-center gap-3 md:justify-start">
+
+                <div class="flex -space-x-2">
+
+                    <img
+                        src="imagens/gabriel-santos.jpg"
+                        alt="Gabriel Santos"
+                        class="h-9 w-9 rounded-full border-2 border-white object-cover"
+                    >
+
+                    <img
+                        src="imagens/lucas-almeida.jpg"
+                        alt="Lucas Almeida"
+                        class="h-9 w-9 rounded-full border-2 border-white object-cover"
+                    >
+
+                    <img
+                        src="imagens/matheus-oliveira.jpg"
+                        alt="Matheus Oliveira"
+                        class="h-9 w-9 rounded-full border-2 border-white object-cover"
+                    >
+
+                </div>
+
+                <p class="text-sm text-gray-500">
+                    Feito com carinho para os pets.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- IMAGEM PRINCIPAL -->
+        <div class="relative">
+
+            <div class="absolute -inset-4 rounded-3xl bg-purple-100"></div>
+
+            <img
+                src="imagens/gabi.jpg"
+                alt="Gabi"
+                class="relative h-80 w-full rounded-3xl object-cover shadow-lg md:h-[500px]"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="bg-purple-50 px-6 py-20">
+
+        <div class="mx-auto max-w-7xl">
+
+            <div class="mb-12 text-center">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-purple-500">
+                    Nossa seleção
+                </span>
+
+                <h2 class="mt-3 text-3xl font-extrabold md:text-4xl">
+                    Produtos para o seu pet
+                </h2>
+
+                <p class="mx-auto mt-4 max-w-xl text-gray-500">
+                    Tudo o que seu companheiro precisa para viver com mais conforto,
+                    saúde e diversão.
+                </p>
+
+            </div>
+
+
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+
+                <!-- PRODUTO 1: RAÇÃO -->
+                <article class="overflow-hidden rounded-2xl bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+                    <img
+                        src="imagens/racao.jpg"
+                        alt="Ração Premium para pets"
+                        class="aspect-square w-full object-cover"
+                    >
+
+                    <div class="p-5">
+
+                        <span class="text-xs font-bold uppercase tracking-wide text-purple-500">
+                            Alimentação
+                        </span>
+
+                        <h3 class="mt-2 text-lg font-bold">
+                            Ração Premium
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-relaxed text-gray-500">
+                            Alimentação desenvolvida para complementar as necessidades
+                            nutricionais do seu pet e contribuir para seu bem-estar.
+                        </p>
+
+                        <div class="mt-5 flex items-center justify-between">
+
+                            <span class="text-xl font-extrabold">
+                                R$ 89,90
+                            </span>
+
+                            <a
+                                href="#contato"
+                                class="rounded-full bg-purple-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-purple-600"
+                            >
+                                Comprar
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 2: KONG -->
+                <article class="overflow-hidden rounded-2xl bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+                    <img
+                        src="imagens/brinquedo.jpg"
+                        alt="Brinquedo KONG Premium para cães"
+                        class="aspect-square w-full object-cover"
+                    >
+
+                    <div class="p-5">
+
+                        <span class="text-xs font-bold uppercase tracking-wide text-purple-500">
+                            Brinquedos
+                        </span>
+
+                        <h3 class="mt-2 text-lg font-bold">
+                            KONG Premium
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-relaxed text-gray-500">
+                            Brinquedo de borracha natural que pode ser recheado com
+                            ração ou petiscos. Seu quique irregular estimula a brincadeira,
+                            a mastigação e o enriquecimento mental do cão.
+                        </p>
+
+                        <div class="mt-5 flex items-center justify-between">
+
+                            <span class="text-xl font-extrabold">
+                                R$ 139,90
+                            </span>
+
+                            <a
+                                href="#contato"
+                                class="rounded-full bg-purple-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-purple-600"
+                            >
+                                Comprar
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 3: CAMINHA -->
+                <article class="overflow-hidden rounded-2xl bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+                    <img
+                        src="imagens/caminha.avif"
+                        alt="Caminha confortável para pet"
+                        class="aspect-square w-full object-cover"
+                    >
+
+                    <div class="p-5">
+
+                        <span class="text-xs font-bold uppercase tracking-wide text-purple-500">
+                            Conforto
+                        </span>
+
+                        <h3 class="mt-2 text-lg font-bold">
+                            Caminha Confortável
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-relaxed text-gray-500">
+                            Um espaço aconchegante para seu pet descansar,
+                            relaxar e aproveitar momentos de tranquilidade.
+                        </p>
+
+                        <div class="mt-5 flex items-center justify-between">
+
+                            <span class="text-xl font-extrabold">
+                                R$ 119,90
+                            </span>
+
+                            <a
+                                href="#contato"
+                                class="rounded-full bg-purple-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-purple-600"
+                            >
+                                Comprar
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUTO 4: COLEIRA -->
+                <article class="overflow-hidden rounded-2xl bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+
+                    <img
+                        src="imagens/coleira.webp"
+                        alt="Coleira para passeio com pet"
+                        class="aspect-square w-full object-cover"
+                    >
+
+                    <div class="p-5">
+
+                        <span class="text-xs font-bold uppercase tracking-wide text-purple-500">
+                            Acessórios
+                        </span>
+
+                        <h3 class="mt-2 text-lg font-bold">
+                            Coleira
+                        </h3>
+
+                        <p class="mt-2 text-sm leading-relaxed text-gray-500">
+                            Acessório prático para passeios e caminhadas com seu pet.
+                            Escolha um modelo adequado ao porte do animal para garantir
+                            conforto e um ajuste seguro.
+                        </p>
+
+                        <div class="mt-5 flex items-center justify-between">
+
+                            <span class="text-xl font-extrabold">
+                                R$ 59,90
+                            </span>
+
+                            <a
+                                href="#contato"
+                                class="rounded-full bg-purple-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-purple-600"
+                            >
+                                Comprar
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DEPOIMENTOS -->
+    <section id="depoimentos" class="px-6 py-20">
+
+        <div class="mx-auto max-w-7xl">
+
+            <div class="mb-12 text-center">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-purple-500">
+                    Quem confia
+                </span>
+
+                <h2 class="mt-3 text-3xl font-extrabold md:text-4xl">
+                    O que nossos clientes dizem
+                </h2>
+
+                <p class="mx-auto mt-4 max-w-xl text-gray-500">
+                    A satisfação dos nossos clientes e o bem-estar dos seus pets
+                    são nossa maior prioridade.
+                </p>
+
+            </div>
+
+
+            <div class="grid gap-8 md:grid-cols-3">
+
+                <!-- DEPOIMENTO 1 -->
+                <article class="rounded-2xl border border-gray-100 p-7 shadow-sm">
+
+                    <div class="mb-5 flex gap-1 text-lg text-purple-500" aria-label="5 estrelas">
+                        ★★★★★
+                    </div>
+
+                    <p class="leading-relaxed text-gray-600">
+                        "Encontrei tudo o que precisava para o meu cachorro.
+                        Os produtos são ótimos e a experiência foi excelente!"
+                    </p>
+
+                    <div class="mt-6 flex items-center gap-3">
+
+                        <img
+                            src="imagens/gabriel-santos.jpg"
+                            alt="Gabriel Santos"
+                            class="h-12 w-12 rounded-full object-cover"
+                        >
+
+                        <div>
+                            <h3 class="font-bold">
+                                Gabriel Santos
+                            </h3>
+
+                            <p class="text-sm text-gray-500">
+                                Cliente Pet&Style
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DEPOIMENTO 2 -->
+                <article class="rounded-2xl border border-gray-100 p-7 shadow-sm">
+
+                    <div class="mb-5 flex gap-1 text-lg text-purple-500" aria-label="5 estrelas">
+                        ★★★★★
+                    </div>
+
+                    <p class="leading-relaxed text-gray-600">
+                        "Gostei muito da variedade de produtos. Encontrei uma
+                        caminha confortável e meu pet adorou!"
+                    </p>
+
+                    <div class="mt-6 flex items-center gap-3">
+
+                        <img
+                            src="imagens/lucas-almeida.jpg"
+                            alt="Lucas Almeida"
+                            class="h-12 w-12 rounded-full object-cover"
+                        >
+
+                        <div>
+                            <h3 class="font-bold">
+                                Lucas Almeida
+                            </h3>
+
+                            <p class="text-sm text-gray-500">
+                                Cliente Pet&Style
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DEPOIMENTO 3 -->
+                <article class="rounded-2xl border border-gray-100 p-7 shadow-sm">
+
+                    <div class="mb-5 flex gap-1 text-lg text-purple-500" aria-label="5 estrelas">
+                        ★★★★★
+                    </div>
+
+                    <p class="leading-relaxed text-gray-600">
+                        "Uma ótima experiência! Encontrei acessórios de qualidade
+                        e tudo o que precisava para cuidar do meu companheiro."
+                    </p>
+
+                    <div class="mt-6 flex items-center gap-3">
+
+                        <img
+                            src="imagens/matheus-oliveira.jpg"
+                            alt="Matheus Oliveira"
+                            class="h-12 w-12 rounded-full object-cover"
+                        >
+
+                        <div>
+                            <h3 class="font-bold">
+                                Matheus Oliveira
+                            </h3>
+
+                            <p class="text-sm text-gray-500">
+                                Cliente Pet&Style
+                            </p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="bg-purple-50 px-6 py-20">
+
+        <div class="mx-auto max-w-7xl">
+
+            <div class="mb-12 text-center">
+
+                <span class="text-sm font-bold uppercase tracking-widest text-purple-500">
+                    Entre em contato
+                </span>
+
+                <h2 class="mt-3 text-3xl font-extrabold md:text-4xl">
+                    Vamos conversar?
+                </h2>
+
+                <p class="mx-auto mt-4 max-w-xl text-gray-500">
+                    Tem alguma dúvida ou precisa de ajuda para escolher um produto?
+                    Estamos aqui para ajudar.
+                </p>
+
+            </div>
+
+
+            <div class="grid gap-10 rounded-3xl bg-white p-6 shadow-sm md:grid-cols-2 md:p-10">
+
+                <!-- INFORMAÇÕES DE CONTATO -->
+                <div>
+
+                    <h3 class="text-2xl font-bold">
+                        Fale com a gente
+                    </h3>
+
+                    <p class="mt-4 leading-relaxed text-gray-500">
+                        Entre em contato para conhecer nossos produtos,
+                        consultar informações ou tirar suas dúvidas.
+                    </p>
+
+
+                    <div class="mt-8 space-y-6">
+
+                        <!-- E-MAIL -->
+                        <div class="flex items-start gap-4">
+
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-purple-100 text-purple-600">
+
+                                <i data-lucide="mail" class="h-6 w-6"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold">
+                                    E-mail
+                                </h4>
+
+                                <a
+                                    href="mailto:natanxedge@outlook.com"
+                                    class="mt-1 block text-gray-500 transition hover:text-purple-500"
+                                >
+                                    natanxedge@outlook.com
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- TELEFONE -->
+                        <div class="flex items-start gap-4">
+
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-purple-100 text-purple-600">
+
+                                <i data-lucide="phone" class="h-6 w-6"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold">
+                                    Telefone
+                                </h4>
+
+                                <a
+                                    href="tel:+5521981237190"
+                                    class="mt-1 block text-gray-500 transition hover:text-purple-500"
+                                >
+                                    (21) 98123-7190
+                                </a>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- ENDEREÇO -->
+                        <div class="flex items-start gap-4">
+
+                            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-purple-100 text-purple-600">
+
+                                <i data-lucide="map-pin" class="h-6 w-6"></i>
+
+                            </div>
+
+                            <div>
+
+                                <h4 class="font-bold">
+                                    Endereço
+                                </h4>
+
+                                <a
+                                    href="https://www.google.com/maps/search/?api=1&query=Avenida+Independencia+9989+Cabo+Frio+RJ"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="mt-1 block text-gray-500 transition hover:text-purple-500"
+                                >
+                                    Avenida Independência, 9989<br>
+                                    Cabo Frio – RJ
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORMULÁRIO COM MAILTO -->
+                <form id="form-contato" class="space-y-5">
+
+                    <div>
+
+                        <label for="nome" class="mb-2 block text-sm font-semibold">
+                            Seu nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            required
+                            class="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-purple-500 focus:ring-2 focus:ring-purple-100"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="email" class="mb-2 block text-sm font-semibold">
+                            Seu e-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Digite seu e-mail"
+                            required
+                            class="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-purple-500 focus:ring-2 focus:ring-purple-100"
+                        >
+
+                    </div>
+
+
+                    <div>
+
+                        <label for="mensagem" class="mb-2 block text-sm font-semibold">
+                            Mensagem
+                        </label>
+
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="4"
+                            placeholder="Como podemos ajudar?"
+                            required
+                            class="w-full resize-y rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-purple-500 focus:ring-2 focus:ring-purple-100"
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="w-full rounded-full bg-purple-500 px-6 py-3.5 font-semibold text-white transition hover:bg-purple-600"
+                    >
+                        Enviar mensagem
+                    </button>
+
+                    <p class="text-xs leading-relaxed text-gray-400">
+                        Ao clicar em enviar, seu aplicativo de e-mail será aberto
+                        com a mensagem preenchida para você revisar e enviar.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 px-6 py-8 text-white">
+
+        <div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
+
+            <a href="#inicio" class="text-2xl font-extrabold tracking-tight">
+                PET<span class="text-purple-400">&</span>STYLE
+            </a>
+
+            <p class="text-center text-sm text-gray-400">
+                Feito com carinho para os pets.
+            </p>
+
+            <p class="text-center text-sm text-gray-400">
+                © 2026 Pet&Style. Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- LUCIDE: ÍCONES -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        lucide.createIcons();
+
+        // Formulário de contato usando mailto
+        const formulario = document.getElementById("form-contato");
+
+        formulario.addEventListener("submit", function (evento) {
+            evento.preventDefault();
+
+            const nome = document.getElementById("nome").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const mensagem = document.getElementById("mensagem").value.trim();
+
+            const assunto = encodeURIComponent("Contato pelo site Pet&Style");
+
+            const corpo = encodeURIComponent(
+                `Nome: ${nome}\n` +
+                `E-mail do remetente: ${email}\n\n` +
+                `Mensagem:\n${mensagem}`
+            );
+
+            const destino = `mailto:natanxedge@outlook.com?subject=${assunto}&body=${corpo}`;
+
+            window.location.href = destino;
+        });
+    </script>
+
+</body>
+
+</html>
